@@ -1,0 +1,12 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[project]
+dependencies = ["shared"]
+name = "foo" 
+requires-python = ">=3.13"
+version = "0.1.0"
+
+[tool.uv.sources]
+shared = {editable = true, path = "../shared"}
