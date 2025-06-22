@@ -4,7 +4,7 @@ requires = ["hatchling"]
 
 [project]
 dependencies = [
-    "jax==0.5.3",
+    "jax==0.6.2",
 ]
 name = "shared"
 requires-python = ">=3.13"
